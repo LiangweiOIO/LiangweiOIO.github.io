@@ -1,8 +1,8 @@
 <template>
     <div>
         <div id="project" class="container" style="display: block;">
-            <div id="wrapper" style="padding:40px;">
-                <p>I like to do some graphic design. Here are the design projects I am mainly responsible for. </p>
+            <div id="wrapper" style="padding:80px 40px;">
+                <p>Here is my portfolio of graphic design work. </p>
                 <!-- 项目 -->
                 <h2 style="font-family:'Helvetica','myfont';margin-top:30px;">
                     🌱<strong>University Anniversary Series</strong>
@@ -12,13 +12,11 @@
                 <div class="content" style="width: 1130px;">
                     <div class="image" style="">
                         <img src="../images/map.jpg" width="100%">
-                        <!-- <iframe src="../images/map.pdf" height="100%" width="100%"></iframe> -->
-                        <!-- <object data="../images/map.pdf" height="100%" width="100%"></object> -->
-                        <!-- <embed src="../images/map.pdf" type="application/pdf" width="1000"> -->
                     </div>
                     <div class="image" style="">
-                        <img src="../images/photo.png" height="600px" style="padding:3px">
-                        <img src="../images/cover.jpg" height="600px" style="padding:3px">
+                        <img src="../images/photo.png" height="340px" style="padding:2px">
+                        <img src="../images/cover.jpg" height="340px" style="padding:2px">
+                        <img src="../images/map-cover.jpg" height="340px" style="padding:2px">
                     </div>
 
                 </div>
@@ -33,7 +31,7 @@
                         <img src="../images/stamp.jpg" width="100%">
                     </div>
                 </div>
-
+                
                 <h2 style="font-family:'Pattaya','myfont';margin-top:30px;">
                     🌱<strong>Winter Solstice Festival</strong>
                 </h2>
@@ -46,7 +44,18 @@
                 </div>
 
                 <h2 style="font-family:'Pattaya','myfont';margin-top:30px;">
-                    🌱<strong>UI design for Polar Studies Program</strong>
+                    🌱<strong>History of pandemic</strong>
+                </h2>
+
+                <!-- 其他项目 -->
+                <div class="content" style="width: 1130px;">
+                    <div class="image" style="">
+                        <img src="../images/history.jpg" width="100%">
+                    </div>
+                </div>
+                
+                <h2 style="font-family:'Pattaya','myfont';margin-top:30px;">
+                    🌱<strong>UI design for Tripolar Big Data Platform</strong>
                 </h2>
 
                 <!-- 其他项目 -->

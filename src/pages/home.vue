@@ -1,7 +1,7 @@
 <template>
     <div>
         <div id="aboutme" class="container" style="display: block;">
-            <div id="wrapper" style="padding:40px;">
+            <div id="wrapper" style="padding:80px 40px;">
                 <div style="display: inline-block;vertical-align:middle">
                     <img src="../images/me.jpg" width="280">
                 </div>
@@ -20,12 +20,13 @@
                         in Remote sensing science and technology at School of Geospatial Engineering and Science.
                     </p>
                     <p>
-                        I am an enthusiastic fan of Digital Image Processing, WebGIS, Data Visualization and Graphic
-                        Design. The major research content of my current study is mainly about physical geographical
-                        phenomena, while I am more inclined to study humanities, cities and aesthetics subject in the future.
+                        My research interests includs Digital Image Processing, WebGIS, Data Visualization and UX. The
+                        my current study is mainly about design algorithms to detect geographical
+                        phenomena, while I am more inclined to study subject that concern more about humanities, cities and aesthetics in the
+                        future.
                     </p>
                     <p>
-                        I'm applying for a master's program now!
+                        I'm applying for a postgraduate program now.
                     </p>
                     <p style="margin-block-start:0em; margin-block-end:0em">
                         <strong>Contact: </strong>
