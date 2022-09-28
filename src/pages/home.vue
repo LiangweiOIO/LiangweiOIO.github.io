@@ -16,14 +16,14 @@
                         🌏Remote sensing &amp GIS; 💻Front-End; 📐Design
                     </p>
                     <p>
-                        Wecome and thank you for visiting my site! I am a senior student in Sun Yat-sen University major
-                        in Remote sensing science and technology at School of Geospatial Engineering and Science.
+                        Welcome and thank you for visiting my site! I am a senior student at Sun Yat-sen University
+                        majoring in Remote sensing science and technology at the School of Geospatial Engineering and
+                        Science.
                     </p>
                     <p>
-                        My research interests includs Digital Image Processing, WebGIS, Data Visualization and UX. The
-                        my current study is mainly about design algorithms to detect geographical
-                        phenomena, while I am more inclined to study subject that concern more about humanities, cities and aesthetics in the
-                        future.
+                        My research interests include Digital Image Processing, WebGIS, Data Visualization, and UX. My
+                        current study is mainly about designing algorithms to detect geographical phenomena, while I am
+                        more inclined to study a subject that concerns more with humanities and cities in the future.
                     </p>
                     <p>
                         I'm applying for a postgraduate program now.
