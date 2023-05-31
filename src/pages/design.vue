@@ -2,7 +2,7 @@
     <div>
         <div id="project" class="container" style="display: block;">
             <div id="wrapper" style="padding:80px 40px;">
-                <p>Here is my portfolio of graphic design work. </p>
+                <!-- <p>Here is my design work. </p> -->
                 <!-- 项目 -->
                 <h2 style="font-family:'Helvetica','myfont';margin-top:30px;">
                     🌱<strong>University Anniversary Series</strong>
@@ -44,7 +44,7 @@
                 </div>
 
                 <h2 style="font-family:'Pattaya','myfont';margin-top:30px;">
-                    🌱<strong>History of pandemic</strong>
+                    🌱<strong>History of Pandemic</strong>
                 </h2>
 
                 <!-- 其他项目 -->
@@ -55,13 +55,13 @@
                 </div>
                 
                 <h2 style="font-family:'Pattaya','myfont';margin-top:30px;">
-                    🌱<strong>UI design for Tripolar Big Data Platform</strong>
+                    🌱<strong> The Beauty of Ancient Colors </strong>
                 </h2>
 
                 <!-- 其他项目 -->
                 <div class="content" style="width: 1130px;">
                     <div class="image" style="">
-                        <img src="../images/website.jpg" width="100%">
+                        <img src="../images/color.jpg" width="100%">
                     </div>
                 </div>
 

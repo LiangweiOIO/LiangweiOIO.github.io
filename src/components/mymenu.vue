@@ -15,7 +15,7 @@
 
     <router-link class="router-change" to="/">Home</router-link>
     <router-link class="router-change" to="/project">Project</router-link>
-    <router-link class="router-change" to="/portfolio">Portfolio</router-link>
+    <router-link class="router-change" to="/design">Design</router-link>
 
   </div>
 

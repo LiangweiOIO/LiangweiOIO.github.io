@@ -12,9 +12,9 @@ const routes = [
         name: 'project',
         component: () => import('@/pages/project.vue'),
     }, {
-        path: '/portfolio',
-        name: 'portfolio',
-        component: () => import('@/pages/portfolio.vue'),
+        path: '/design',
+        name: 'design',
+        component: () => import('@/pages/design.vue'),
      }
     
 ];

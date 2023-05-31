@@ -7,7 +7,7 @@
                     <img src="../images/me.jpg" width="300">
                 </div>
 
-                <div class="info" style="">
+                <div class="info">
                     <h2 style="color: #5BA689; font-family:'Helvetica','myfont' ">
                         <strong>Liangwei Wang</strong>
                         😃 王梁炜
@@ -17,19 +17,17 @@
                     </p>
                     <p>
                         Welcome and thank you for visiting my site! I am a senior student at Sun Yat-sen University
-                        majoring in Remote sensing science and technology. Currently, I'm an incoming Data Science and Analytics  PhD student in the Hong Kong University of Science and Technology (Guangzhou).
+                        majoring in Remote sensing science and technology. I am now a research assistant in <span class="under"><a href="https://hkust-cival.com/">CIVIL lab</a></span>. 
                     </p>
-                    <!-- <p>
-                        My research interests include Digital Image Processing, WebGIS, Data Visualization, and UX. My
-                        current study is mainly about designing algorithms to detect geographical phenomena, while I am
-                        more inclined to study a subject that concerns more with humanities and cities in the future.
-                    </p>-->
+                    <p>
+                        Currently, I'm an incoming <span class="under">Data Science and Analytics</span> PhD student (23 Fall) in the Hong Kong University of Science and Technology (Guangzhou). I am supervised by Prof. Tsung Fugee and co-supervised by Prof. Zeng Wei. In the future, I will explore and conduct research in the field of "industry + visualization."
+                    </p>
                     <p>
                         <!-- My research interests include Digital Image Processing, WebGIS, Data Visualization. -->
                     </p>
                     <p style="margin-block-start:0em; margin-block-end:0em">
                         <strong>Contact: </strong>
-                        wanglw27@mail2.sysu.edu.cn
+                        liangweioio27@gmail.com
                     </p>
                 </div>
 
@@ -82,9 +80,17 @@
 .myimg {
     display: inline-block;
     vertical-align:middle;
-    border-radius: 20%;
+    /* border-radius: 5%; */
     width: 280px;
-    height: 360px;
+    /* height: 280px; */
     overflow: hidden;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+a{
+    color: #5ba689;
 }
 </style>
