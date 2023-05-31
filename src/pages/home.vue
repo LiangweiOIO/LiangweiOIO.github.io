@@ -3,8 +3,8 @@
         <div id="aboutme" class="container" style="display: block;">
             <div id="wrapper" class="wrapper" style="padding:0px 40px;">
 
-                <div style="display: inline-block;vertical-align:middle;">
-                    <img src="../images/me.jpg" width="280">
+                <div class="myimg">
+                    <img src="../images/me.jpg" width="300">
                 </div>
 
                 <div class="info" style="">
@@ -17,7 +17,7 @@
                     </p>
                     <p>
                         Welcome and thank you for visiting my site! I am a senior student at Sun Yat-sen University
-                        majoring in Remote sensing science and technology.
+                        majoring in Remote sensing science and technology. Currently, I'm an incoming Data Science and Analytics  PhD student in the Hong Kong University of Science and Technology (Guangzhou).
                     </p>
                     <!-- <p>
                         My research interests include Digital Image Processing, WebGIS, Data Visualization, and UX. My
@@ -25,7 +25,7 @@
                         more inclined to study a subject that concerns more with humanities and cities in the future.
                     </p>-->
                     <p>
-                        My research interests include Digital Image Processing, WebGIS, Data Visualization.
+                        <!-- My research interests include Digital Image Processing, WebGIS, Data Visualization. -->
                     </p>
                     <p style="margin-block-start:0em; margin-block-end:0em">
                         <strong>Contact: </strong>
@@ -77,5 +77,14 @@
     line-height: 2;
     color: black;
     max-width: 740px;
+}
+
+.myimg {
+    display: inline-block;
+    vertical-align:middle;
+    border-radius: 20%;
+    width: 280px;
+    height: 360px;
+    overflow: hidden;
 }
 </style>
