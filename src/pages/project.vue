@@ -109,7 +109,7 @@
                     <div
                         style="display: inline-block; vertical-align:middle; margin-left: 80px; text-align: left; line-height: 2; color:black; max-width: 740px;">
                         <h2>
-                            Photogrammetry - A C++ Programm Generates 3D Poincloud Bases on Binocular Images
+                            Photogrammetry - A C++ Program Generates 3D Poincloud Bases on Binocular Images
                         </h2>
                         <p>
                             This is the final assignment of the photogrammetry course. For binocular images with given
