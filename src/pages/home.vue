@@ -3,9 +3,10 @@
         <div id="aboutme" class="container" style="display: block;">
             <div id="wrapper" class="wrapper" style="padding:0px 40px;">
 
-                <div class="myimg">
-                    <img src="../images/me.jpg" width="300">
+                <div>
+                    <img class="myimg" src="../images/me.jpg">
                 </div>
+                
 
                 <div class="info">
                     <h2 style="color: #5BA689; font-family:'Helvetica','myfont' ">
@@ -17,10 +18,14 @@
                     </p>
                     <p>
                         Welcome and thank you for visiting my site! I am a senior student at Sun Yat-sen University
-                        majoring in Remote sensing science and technology. I am now a research assistant in <span class="under"><a href="https://hkust-cival.com/">CIVIL lab</a></span>. 
+                        majoring in Remote sensing science and technology. I am now a research assistant in <span
+                            class="under"><a href="https://hkust-cival.com/">CIVIL lab</a></span>.
                     </p>
                     <p>
-                        Currently, I'm an incoming <span class="under">Data Science and Analytics</span> PhD student (23 Fall) in the Hong Kong University of Science and Technology (Guangzhou). I am supervised by Prof. Tsung Fugee and co-supervised by Prof. Zeng Wei. In the future, I will explore and conduct research in the field of "industry + visualization."
+                        Currently, I'm an incoming <span class="under">Data Science and Analytics</span> PhD student (23
+                        Fall) in the Hong Kong University of Science and Technology (Guangzhou). I am supervised by Prof.
+                        Tsung Fugee and co-supervised by Prof. Zeng Wei. In the future, I will explore and conduct research
+                        in the field of "industry + visualization."
                     </p>
                     <p>
                         <!-- My research interests include Digital Image Processing, WebGIS, Data Visualization. -->
@@ -53,44 +58,59 @@
 
 <style scoped>
 .container {
-    /* position: absolute; */
-    width: 1190px;
-    height: 95vh;
-    margin: 0px auto;
+    min-height: 95vh;
+    margin: 0 auto;
     vertical-align: middle;
 }
 
 .wrapper {
     height: 90vh;
     display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.myimg {
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+    min-width: 200px;
 }
 
 .info {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 80px;
     text-align: left;
     line-height: 2;
     color: black;
     max-width: 740px;
+    width: 100%;
+    /* 新添加的代码 */
+    box-sizing: border-box;
+    /* 新添加的代码 */
+    margin-top: 20px;
 }
 
-.myimg {
-    display: inline-block;
-    vertical-align:middle;
-    /* border-radius: 5%; */
-    width: 280px;
-    /* height: 280px; */
-    overflow: hidden;
+@media screen and (min-width: 768px) {
+    .wrapper {
+        flex-direction: row;
+    }
+
+    .myimg {
+        margin-right: 80px;
+    }
+
+    .info {
+        margin-top: 0;
+    }
 }
 
-.under{
+.under {
     text-decoration: underline;
 }
 
-a{
+a {
     color: #5ba689;
 }
 </style>
